@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Welcome to SheaCole.com!</h1>
+    <img alt="Vue logo" src="../assets/family_pic.jpg">
+    <HelloWorld/>
   </div>
 </template>
 
@@ -16,3 +17,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  img {
+    max-height: 300px;
+  }
+</style>
